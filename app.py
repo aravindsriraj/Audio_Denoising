@@ -6,22 +6,16 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.models import model_from_json
 import time
 import os
-import subprocess
 import streamlit as st
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
 import soundfile as sf
-import cv2 as cv
-import audio2numpy as a2n
 import librosa
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.models import model_from_json
 import soundfile as sf
-from scipy import signal
-from scipy.io import wavfile
-from pydub import AudioSegment
 import matplotlib as mpl
 mpl.rcParams['agg.path.chunksize'] = 10000
 
