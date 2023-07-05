@@ -2,6 +2,6 @@ streamlit
 tensorflow
 numpy
 librosa
-matplotlib
+matplotlib==3.4.3
 soundfile
 scipy
